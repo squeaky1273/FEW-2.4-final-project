@@ -1,24 +1,92 @@
-import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import React from 'react'
+import {
+  View,
+  Text,
+  FlatList,
+  Image,
+  TouchableOpacity,
+  StyleSheet
+} from 'react-native'
+import { useDispatch } from 'react-redux'
+import { pokemon } from '../utils/data'
+import { ADD_TO_TEAM } from '../redux/pokemonTeamReducer'
 
+function Separator() {
+  return <View style={{ borderBottomWidth: 1, borderBottomColor: '#a9a9a9' }} />
+}
 
 function PokemonScreen() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.heading}>Pokemon!</Text>
-      </View>
-    );
-  }
+  const dispatch = useDispatch()
+  const addPokemonToTeam = item => dispatch({ type: ADD_TO_TEAM, payload: item })
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={pokemon}
+        keyExtractor={(item) => item.name}
+        ItemSeparatorComponent={() => Separator()}
+        renderItem={({ item }) => (
+          <View style={styles.bookItemContainer}>
+            <Image source={{ uri: item.imgUrl }} style={styles.thumbnail} />
+            <View>
+              <Text style={styles.textTitle} numberOfLines={1}>
+                {item.name}
+              </Text>
+              <Text style={styles.textAuthor}>{item.type}</Text>
+              <View style={styles.buttonContainer}>
+                <TouchableOpacity
+                   onPress={() => addPokemonToTeam(item)} style={styles.button}
+                  style={styles.button}
+                >
+                  <Text style={styles.buttonText}>Add +</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        )}
+      />
+    </View>
+  )
+}
 
 export default PokemonScreen
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1, justifyContent: 'center', alignItems: 'center'
-    },
-    heading: {
-        fontSize: 48,
-        fontWeight: 'bold',
-        margin: 20
-    }
+  container: {
+    flex: 1,
+    backgroundColor: '#fff'
+  },
+  bookItemContainer: {
+    flexDirection: 'row',
+    padding: 10
+  },
+  thumbnail: {
+    width: 100,
+    height: 150
+  },
+  bookItemMetaContainer: {
+    padding: 5,
+    paddingLeft: 10
+  },
+  textTitle: {
+    fontSize: 22,
+    fontWeight: '400'
+  },
+  textAuthor: {
+    fontSize: 18,
+    fontWeight: '200'
+  },
+  buttonContainer: {
+    position: 'absolute',
+    top: 110,
+    left: 10
+  },
+  button: {
+    borderRadius: 8,
+    backgroundColor: '#24a0ed',
+    padding: 5
+  },
+  buttonText: {
+    fontSize: 22,
+    color: '#fff'
+  }
 })

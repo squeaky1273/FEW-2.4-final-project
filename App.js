@@ -1,31 +1,12 @@
-import * as React from 'react';
-// import { Text, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-import HomeScreen from './src/screens/HomeScreen'
-import PokemonScreen from './src/screens/PokemonScreen'
-import TeamScreen from './TeamScreen'
-
-const Tab = createBottomTabNavigator();
+import React from 'react'
+import MainStackNavigator from './src/navigation/AppNavigator'
+import { Provider as StoreProvider } from 'react-redux'
+import store from './src/redux/store'
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Pokemon" component={PokemonScreen} />
-        <Tab.Screen name="Team" component={TeamScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
-  );
+    <StoreProvider store={store}>
+      <MainStackNavigator />
+    </StoreProvider>
+  )
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
