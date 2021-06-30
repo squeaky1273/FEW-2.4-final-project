@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomeScreen from './src/screens/HomeScreen'
 import PokemonScreen from './src/screens/PokemonScreen'
-// import TeamScreen from './TeamScreen'
+import TeamScreen from './TeamScreen'
 
 const Tab = createBottomTabNavigator();
 
@@ -15,6 +15,7 @@ export default function App() {
       <Tab.Navigator>
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Pokemon" component={PokemonScreen} />
+        <Tab.Screen name="Team" component={TeamScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
