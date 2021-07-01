@@ -1,6 +1,6 @@
 import React from 'react'
 import { TouchableOpacity, View, Text, StyleSheet } from 'react-native'
-import { Ionicons } from '@expo/vector-icons'
+import { AntDesign } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native'
 import { useSelector } from 'react-redux'
 
@@ -15,7 +15,7 @@ function TeamIcon() {
       <View style={styles.itemCountContainer}>
         <Text style={styles.itemCountText}>{capturedPokemon.length}</Text>
       </View>
-      <Ionicons name='ios-cart' size={32} color='#101010' />
+      <AntDesign name="team" size={24} color="black" />
     </TouchableOpacity>
   )
 }

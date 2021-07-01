@@ -25,13 +25,13 @@ function PokemonScreen() {
         keyExtractor={(item) => item.name}
         ItemSeparatorComponent={() => Separator()}
         renderItem={({ item }) => (
-          <View style={styles.bookItemContainer}>
+          <View style={styles.pokemonListContainer}>
             <Image source={{ uri: item.imgUrl }} style={styles.thumbnail} />
             <View>
-              <Text style={styles.textTitle} numberOfLines={1}>
+              <Text style={styles.pokemonName} numberOfLines={1}>
                 {item.name}
               </Text>
-              <Text style={styles.textAuthor}>{item.type}</Text>
+              <Text style={styles.pokemonType}>{item.type}</Text>
               <View style={styles.buttonContainer}>
                 <TouchableOpacity
                    onPress={() => addPokemonToTeam(item)} style={styles.button}
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff'
   },
-  bookItemContainer: {
+  pokemonListContainer: {
     flexDirection: 'row',
     padding: 10
   },
@@ -67,11 +67,11 @@ const styles = StyleSheet.create({
     padding: 5,
     paddingLeft: 10
   },
-  textTitle: {
+  pokemonName: {
     fontSize: 22,
     fontWeight: '400'
   },
-  textAuthor: {
+  pokemonType: {
     fontSize: 18,
     fontWeight: '200'
   },
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   },
   button: {
     borderRadius: 8,
-    backgroundColor: '#24a0ed',
+    backgroundColor: 'green',
     padding: 5
   },
   buttonText: {

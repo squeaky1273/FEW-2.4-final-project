@@ -4,10 +4,10 @@ React native app where users can create their team from the 150 1st gen pokemon
 
 ## Tasks
 - [x] 3+ tabs
-- [ ] implement redux files
-- [ ] view pokemon data
-- [ ] add pokemon to team
-- [ ] delete pokemon to team
+- [x] implement redux files
+- [ ] view pokemon in team
+- [x] add pokemon to team
+- [x] delete pokemon to team
 
 
 ## Stretch challenges
