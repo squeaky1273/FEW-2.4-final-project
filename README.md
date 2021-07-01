@@ -8,7 +8,7 @@ React native app where users can create their team from the 150 1st gen pokemon
 - [x] view pokemon in team
 - [x] add pokemon to team
 - [x] delete pokemon to team
-- [] add decent styling
+- [ ] add decent styling
 
 
 ## Stretch challenges
@@ -20,3 +20,8 @@ React native app where users can create their team from the 150 1st gen pokemon
 - Capture pokemon and add to team (Pokemon Screen)
 - Release one or all pokemon (Team Screen)
 - Alternate between tabs
+
+
+Helpful resources related to redux and react native
+- [How to Use Redux Hooks in a React Native App](https://blog.crowdbotics.com/use-redux-hooks-in-react-native-app/)
+- [Comprehensive guide to using Redux in React Native](https://blog.logrocket.com/comprehensive-guide-to-using-redux-in-react-native/)
