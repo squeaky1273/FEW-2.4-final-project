@@ -1,12 +1,14 @@
 import React from 'react'
-import MainStackNavigator from './src/navigation/AppNavigator'
-import { Provider as StoreProvider } from 'react-redux'
+import RootNavigator from './src/navigation/AppNavigator'
+import { Provider } from 'react-redux'
 import store from './src/redux/store'
 
-export default function App() {
+const App = () => {
   return (
-    <StoreProvider store={store}>
-      <MainStackNavigator />
-    </StoreProvider>
-  )
-}
+    <Provider store={store}>
+      <RootNavigator />
+    </Provider>
+  );
+};
+
+export default App;

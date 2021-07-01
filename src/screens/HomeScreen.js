@@ -1,12 +1,11 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-// import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 function HomeScreen() {
     return (
       <View style={styles.container}>
-          {/* <FontAwesome>{Icons.chevronLeft}</FontAwesome> */}
-          <Text style={styles.heading}>Home!</Text>
+          <Text style={styles.heading}>Welcome to the world of Pokemon</Text>
+          <Text>You gotta catch em all, so get to it!</Text>
       </View>
     );
   }

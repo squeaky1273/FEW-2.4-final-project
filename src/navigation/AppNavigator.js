@@ -1,27 +1,28 @@
 import * as React from 'react';
-import { createStackNavigator } from '@react-navigation/stack'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import TeamIcon from '../components/TeamIcon'
+// import TeamIcon from '../components/TeamIcon'
 
-// import HomeScreen from './src/screens/HomeScreen'
+import HomeScreen from '../screens/HomeScreen'
 import PokemonScreen from '../screens/PokemonScreen'
 import TeamScreen from '../screens/TeamScreen'
 
-const Stack = createStackNavigator()
+const Tab = createBottomTabNavigator();
 
-function MainStackNavigator() {
+function RootNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
+      <Tab.Navigator>
+        <Tab.Screen name='Home' component={HomeScreen} />
+        <Tab.Screen
             name='Pokemon'
             component={PokemonScreen}
             options={{ headerRight: props => <TeamIcon {...props} /> }}
         />
-        <Stack.Screen name='Team' component={TeamScreen} />
-      </Stack.Navigator>
+        <Tab.Screen name='Team' component={TeamScreen} />
+      </Tab.Navigator>
     </NavigationContainer>
   )
 }
 
-export default MainStackNavigator
+export default RootNavigator
