@@ -7,7 +7,7 @@ const pokemonTeamReducer = (state = initialState, action) => {
     case ADD_TO_TEAM:
       return [...state, action.payload]
     case REMOVE_FROM_TEAM:
-      return state.filter(chosenPokemon => chosenPokemon.id !== action.payload.id)
+      return state.filter(chosenPokemon => chosenPokemon.ID !== action.payload.id)
   }
   return state
 }

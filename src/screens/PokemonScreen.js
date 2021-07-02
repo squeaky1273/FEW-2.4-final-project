@@ -20,6 +20,7 @@ function PokemonScreen() {
   const addPokemonToTeam = item => dispatch({ type: ADD_TO_TEAM, payload: item })
   return (
     <View style={styles.container}>
+      <Text style={styles.heading}>Wild Pokemon</Text>
       <FlatList
         data={pokemon}
         keyExtractor={(item) => item.name}
@@ -53,7 +54,12 @@ export default PokemonScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+  },
+  heading: {
+    fontSize: 36,
+    fontWeight: 'bold',
+    margin: 20,
+    paddingTop: 50
   },
   pokemonListContainer: {
     flexDirection: 'row',

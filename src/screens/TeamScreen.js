@@ -15,25 +15,24 @@ function Separator() {
     return <View style={{ borderBottomWidth: 1, borderBottomColor: '#a9a9a9' }} />
 }
 
-function CartScreen() {
+function TeamScreen() {
     const capturedPokemon = useSelector(state => state)
     const dispatch = useDispatch()
 
-    const removePokemonFromTeam = item =>
+    const removePokemonFromTeam = id =>
     dispatch({
         type: REMOVE_FROM_TEAM,
-        payload: item
+        payload: {id}
     })
 
     return (
         <View
-        style={{
-            flex: 1
-        }}>
+        style={styles.container}>
+        <Text style={styles.heading}>Your Team</Text>
         {capturedPokemon.length !== 0 ? (
             <FlatList
             data={capturedPokemon}
-            keyExtractor={(item) => item.name}
+            keyExtractor={(item) => item.name.toString()}
             ItemSeparatorComponent={() => Separator()}
             renderItem={({ item }) => (
                 <View style={styles.pokemonListContainer}>
@@ -45,7 +44,7 @@ function CartScreen() {
                     <Text style={styles.pokemonType}>{item.type}</Text>
                     <View style={styles.buttonContainer}>
                     <TouchableOpacity
-                        onPress={() => removePokemonFromTeam(item)}
+                        onPress={() => removePokemonFromTeam(item.ID)}
                         style={styles.button}>
                         <Text style={styles.buttonText}>Remove -</Text>
                     </TouchableOpacity>
@@ -56,7 +55,7 @@ function CartScreen() {
             />
         ) : (
             <View style={styles.emptyTeamContainer}>
-                <Text style={styles.emptyTeamMessage}>You have no pokemon in your team.</Text>
+                <Text style={styles.emptyTeamMessage}>You have no pokemon on your team.</Text>
                 <Entypo name="progress-empty" size={48} color="black" />
             </View>
         )}
@@ -67,7 +66,12 @@ function CartScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff'
+    },
+    heading: {
+        fontSize: 36,
+        fontWeight: 'bold',
+        margin: 20,
+        paddingTop: 50,
     },
     pokemonListContainer: {
         flexDirection: 'row',
@@ -113,4 +117,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default CartScreen
+export default TeamScreen
