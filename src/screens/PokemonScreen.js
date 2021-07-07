@@ -27,18 +27,19 @@ function PokemonScreen() {
         ItemSeparatorComponent={() => Separator()}
         renderItem={({ item }) => (
           <View style={styles.pokemonListContainer}>
-            <Image source={{ uri: item.imgUrl }} style={styles.thumbnail} />
+            <Image source={{ uri: item.image }} style={styles.thumbnail} />
             <View>
               <Text style={styles.pokemonName} numberOfLines={1}>
                 {item.name}
               </Text>
-              <Text style={styles.pokemonType}>{item.type}</Text>
+              <Text style={styles.pokemonType}>Type: {item.type}</Text>
+              <Text style={styles.pokemonWeakness}>Weakness: {item.weakness}</Text>
               <View style={styles.buttonContainer}>
                 <TouchableOpacity
-                   onPress={() => addPokemonToTeam(item)} style={styles.button}
-                  style={styles.button}
+                    onPress={() => addPokemonToTeam(item)} style={styles.button}
+                    style={styles.button}
                 >
-                  <Text style={styles.buttonText}>Add +</Text>
+                  <Text style={styles.buttonText}>Add + </Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -66,20 +67,22 @@ const styles = StyleSheet.create({
     padding: 10
   },
   thumbnail: {
-    width: 100,
+    width: 150,
     height: 150
-  },
-  bookItemMetaContainer: {
-    padding: 5,
-    paddingLeft: 10
   },
   pokemonName: {
     fontSize: 22,
     fontWeight: '400'
   },
   pokemonType: {
-    fontSize: 18,
+    fontSize: 13,
     fontWeight: '200'
+  },
+  pokemonWeakness: {
+      fontSize: 13,
+      fontWeight: '200',
+      flex: 1,
+      flexGrow: 1,
   },
   buttonContainer: {
     position: 'absolute',

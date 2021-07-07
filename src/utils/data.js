@@ -13,9 +13,8 @@ export const pokemon = [
             ", Psychic",
             ", Flying"
         ],
-        "image":[
-          "001.png"
-       ]
+        "image": 
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
     },
     {
         "ID": 1,
@@ -31,9 +30,8 @@ export const pokemon = [
             ", Psychic", 
             ", Flying"
         ],
-        "image":[
-          "002.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
     },
     {
         "ID": 2,
@@ -49,9 +47,8 @@ export const pokemon = [
             ", Psychic",
             ", Flying"
         ],
-        "image":[
-          "003.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
     },
     {
         "ID": 3,
@@ -65,9 +62,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "004.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
     },
     {
         "ID": 4,
@@ -81,9 +77,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "005.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"
     },
     {
         "ID": 5,
@@ -98,9 +93,8 @@ export const pokemon = [
             ", Electric",
             ", Rock"
         ],
-        "image":[
-          "006.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
     },
     {
         "ID": 6,
@@ -113,9 +107,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "007.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
     },
     {
         "ID": 7,
@@ -128,9 +121,8 @@ export const pokemon = [
             "Grass", 
             ", Electric"
         ],
-        "image":[
-          "008.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
     },
     {
         "ID": 8,
@@ -143,9 +135,8 @@ export const pokemon = [
             "Grass", 
             ", Electric"
         ],
-        "image":[
-          "009.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"
     },
     {
         "ID": 9,
@@ -159,9 +150,8 @@ export const pokemon = [
             ", Flying", 
             ", Rock"
         ],
-        "image":[
-          "010.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
     },
     {
         "ID": 10,
@@ -175,9 +165,8 @@ export const pokemon = [
             ", Flying",
             ", Rock"
         ],
-        "image":[
-          "011.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png"
     },
     {
         "ID": 11,
@@ -194,9 +183,8 @@ export const pokemon = [
             ", Electric",
             ", Rock"
         ],
-        "image":[
-          "012.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"
     },
     {
         "ID": 12,
@@ -212,9 +200,8 @@ export const pokemon = [
             ", Psychic",
             ", Rock"
         ],
-        "image": [
-          "013.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"
     },
     {
         "ID": 13,
@@ -230,9 +217,8 @@ export const pokemon = [
             ", Psychic",
             ", Rock"
         ],
-        "image": [
-          "014.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png"
     },
     {
         "ID": 14,
@@ -248,9 +234,8 @@ export const pokemon = [
             ", Flying",
             ", Rock"
         ],
-        "image":[
-          "015.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"
     },
     {
         "ID": 15,
@@ -265,9 +250,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "016.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
     },
     {
         "ID": 16,
@@ -282,9 +266,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "017.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png"
     },
     {
         "ID": 17,
@@ -299,9 +282,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "018.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png"
     },
     {
         "ID": 18,
@@ -313,9 +295,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "019.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"
     },
     {
         "ID": 19,
@@ -327,9 +308,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "020.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png"
     },
     {
         "ID": 20,
@@ -344,9 +324,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "021.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png"
     },
     {
         "ID": 21,
@@ -361,9 +340,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "022.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png"
     },
     {
         "ID": 22,
@@ -376,9 +354,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "023.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png"
     },
     {
         "ID": 23,
@@ -391,9 +368,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "024.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png"
     },
     {
         "ID": 24,
@@ -405,9 +381,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "025.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
     },
     {
         "ID": 25,
@@ -419,9 +394,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "026.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png"
     },
     {
         "ID": 26,
@@ -435,9 +409,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "027.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
     },
     {
         "ID": 27,
@@ -451,9 +424,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "028.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png"
     },
     {
         "ID": 28,
@@ -466,9 +438,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "029.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png"
     },
     {
         "ID": 29,
@@ -481,9 +452,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "030.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png"
     },
     {
         "ID": 30,
@@ -499,9 +469,8 @@ export const pokemon = [
             ", Ice",
             ", Ground"
         ],
-        "image":[
-          "031.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png"
     },
     {
         "ID": 31,
@@ -514,9 +483,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "032.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png"
     },
     {
         "ID": 32,
@@ -529,9 +497,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "033.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png"
     },
     {
         "ID": 33,
@@ -547,9 +514,8 @@ export const pokemon = [
             ", Ice",
             ", Ground"
         ],
-        "image":[
-          "034.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png"
     },
     {
         "ID": 34,
@@ -562,9 +528,8 @@ export const pokemon = [
             "Steel",
             ", Poison"
         ],
-        "image":[
-          "035.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
     },
     {
         "ID": 35,
@@ -577,9 +542,8 @@ export const pokemon = [
             "Steel",
             ", Poison"
         ],
-        "image":[
-          "036.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png"
     },
     {
         "ID": 36,
@@ -593,9 +557,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "037.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
     },
     {
         "ID": 37,
@@ -609,9 +572,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "038.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png"
     },
     {
         "ID": 38,
@@ -625,9 +587,8 @@ export const pokemon = [
             "Steel",
             ", Poison"
         ],
-        "image":[
-          "039.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
     },
     {
         "ID": 39,
@@ -641,9 +602,8 @@ export const pokemon = [
             "Steel",
             ", Poison"
         ],
-        "image":[
-          "040.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png"
     },
     {
         "ID": 40,
@@ -659,9 +619,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "041.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png"
     },
     {
         "ID": 41,
@@ -677,9 +636,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "042.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png"
     },
     {
         "ID": 42,
@@ -696,9 +654,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "043.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png"
     },
     {
         "ID": 43,
@@ -715,9 +672,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "044.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png"
     },
     {
         "ID": 44,
@@ -734,9 +690,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "045.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png"
     },
     {
         "ID": 45,
@@ -754,9 +709,8 @@ export const pokemon = [
             ", Rock",
             ", Bug"
         ],
-        "image":[
-          "046.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png"
     },
     {
         "ID": 46,
@@ -774,9 +728,8 @@ export const pokemon = [
             ", Rock",
             ", Bug"
         ],
-        "image":[
-          "047.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png"
     },
     {
         "ID": 47,
@@ -792,9 +745,8 @@ export const pokemon = [
             ", Flying",
             ", Rock"
         ],
-        "image":[
-          "048.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png"
     },
     {
         "ID": 48,
@@ -810,9 +762,8 @@ export const pokemon = [
             ", Flying",
             ", Rock"
         ],
-        "image":[
-          "049.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png"
     },
     {
         "ID": 49,
@@ -826,9 +777,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "050.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png"
     },
     {
         "ID": 50,
@@ -842,9 +792,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "051.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png"
     },
     {
         "ID": 51,
@@ -856,9 +805,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "052.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
     },
     {
         "ID": 52,
@@ -870,9 +818,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image": [
-          "053.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png"
     },
     {
         "ID": 53,
@@ -885,9 +832,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image": [
-          "054.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
     },
     {
         "ID": 54,
@@ -900,9 +846,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "055.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png"
     },
     {
         "ID": 55,
@@ -916,9 +861,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "056.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png"
     },
     {
         "ID": 56,
@@ -932,9 +876,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "057.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png"
     },
     {
         "ID": 57,
@@ -948,9 +891,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "058.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png"
     },
     {
         "ID": 58,
@@ -964,9 +906,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "059.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png"
     },
     {
         "ID": 59,
@@ -979,9 +920,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "060.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png"
     },
     {
         "ID": 60,
@@ -994,9 +934,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "061.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png"
     },
     {
         "ID": 61,
@@ -1013,9 +952,8 @@ export const pokemon = [
             ", Psychic",
             ", Electric"
         ],
-        "image":[
-          "062.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png"
     },
     {
         "ID": 62,
@@ -1029,9 +967,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "063.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
     },
     {
         "ID": 63,
@@ -1045,9 +982,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "064.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png"
     },
     {
         "ID": 64,
@@ -1061,9 +997,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "065.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png"
     },
     {
         "ID": 65,
@@ -1077,9 +1012,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "066.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png"
     },
     {
         "ID": 66,
@@ -1093,9 +1027,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "067.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png"
     },
     {
         "ID": 67,
@@ -1109,9 +1042,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "068.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png"
     },
     {
         "ID": 68,
@@ -1127,9 +1059,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "069.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png"
     },
     {
         "ID": 69,
@@ -1145,9 +1076,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "070.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png"
     },
     {
         "ID": 70,
@@ -1163,9 +1093,8 @@ export const pokemon = [
             ", Flying",
             ", Ice"
         ],
-        "image":[
-          "071.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png"
     },
     {
         "ID": 71,
@@ -1180,9 +1109,8 @@ export const pokemon = [
             ", Electric",
             ", Ground"
         ],
-        "image":[
-          "072.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png"
     },
     {
         "ID": 72,
@@ -1197,9 +1125,8 @@ export const pokemon = [
             ", Electric",
             ", Ground"
         ],
-        "image":[
-          "073.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png"
     },
     {
         "ID": 73,
@@ -1217,9 +1144,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "074.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png"
     },
     {
         "ID": 74,
@@ -1237,9 +1163,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "075.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png"
     },
     {
         "ID": 75,
@@ -1257,9 +1182,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "076.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png"
     },
     {
         "ID": 76,
@@ -1273,9 +1197,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "077.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png"
     },
     {
         "ID": 77,
@@ -1289,9 +1212,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "078.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png"
     },
     {
         "ID": 78,
@@ -1308,9 +1230,8 @@ export const pokemon = [
             ", Electric",
             ", Bug"
         ],
-        "image":[
-          "079.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png"
     },
     {
         "ID": 79,
@@ -1327,9 +1248,8 @@ export const pokemon = [
             ", Electric",
             ", Bug"
         ],
-        "image":[
-          "080.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png"
     },
     {
         "ID": 80,
@@ -1344,9 +1264,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "081.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png"
     },
     {
         "ID": 81,
@@ -1361,9 +1280,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "082.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png"
     },
     {
         "ID": 82,
@@ -1378,9 +1296,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "083.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png"
     },
     {
         "ID": 83,
@@ -1395,9 +1312,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "084.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png"
     },
     {
         "ID": 84,
@@ -1412,9 +1328,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "085.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png"
     },
     {
         "ID": 85,
@@ -1427,9 +1342,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "086.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png"
     },
     {
         "ID": 86,
@@ -1445,9 +1359,8 @@ export const pokemon = [
             ", Fighting",
             ", Rock"
         ],
-        "image":[
-          "087.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png"
     },
     {
         "ID": 87,
@@ -1460,9 +1373,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "088.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png"
     },
     {
         "ID": 88,
@@ -1475,9 +1387,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "089.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png"
     },
     {
         "ID": 89,
@@ -1490,9 +1401,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "090.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png"
     },
     {
         "ID": 90,
@@ -1508,9 +1418,8 @@ export const pokemon = [
             ", Fighting",
             ", Rock"
         ],
-        "image":[
-          "091.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png"
     },
     {
         "ID": 91,
@@ -1526,9 +1435,8 @@ export const pokemon = [
             ", Psychic",
             ", Ground"
         ],
-        "image":[
-          "092.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png"
     },
     {
         "ID": 92,
@@ -1544,9 +1452,8 @@ export const pokemon = [
             ", Psychic",
             ", Ground"
         ],
-        "image":[
-          "093.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png"
     },
     {
         "ID": 93,
@@ -1562,9 +1469,8 @@ export const pokemon = [
             ", Psychic",
             ", Ground"
         ],
-        "image":[
-          "094.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"
     },
     {
         "ID": 94,
@@ -1582,9 +1488,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "095.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png"
     },
     {
         "ID": 95,
@@ -1598,9 +1503,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "096.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png"
     },
     {
         "ID": 96,
@@ -1614,9 +1518,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "097.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png"
     },
     {
         "ID": 97,
@@ -1629,9 +1532,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "098.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png"
     },
     {
         "ID": 98,
@@ -1644,9 +1546,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "099.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png"
     },
     {
         "ID": 99,
@@ -1658,9 +1559,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "100.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png"
     },
     {
         "ID": 100,
@@ -1672,9 +1572,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "101.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png"
     },
     {
         "ID": 101,
@@ -1693,9 +1592,8 @@ export const pokemon = [
             ", Poison",
             ", Bug"
         ],
-        "image":[
-          "102.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png"
     },
     {
         "ID": 102,
@@ -1714,9 +1612,8 @@ export const pokemon = [
             ", Poison",
             ", Bug"
         ],
-        "image":[
-          "103.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png"
     },
     {
         "ID": 103,
@@ -1730,9 +1627,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "104.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png"
     },
     {
         "ID": 104,
@@ -1746,9 +1642,8 @@ export const pokemon = [
             ", Grass",
             ", Ice"
         ],
-        "image":[
-          "105.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png"
     },
     {
         "ID": 105,
@@ -1762,9 +1657,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "106.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png"
     },
     {
         "ID": 106,
@@ -1778,9 +1672,8 @@ export const pokemon = [
             ", Flying",
             ", Fairy"
         ],
-        "image":[
-          "107.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png"
     },
     {
         "ID": 107,
@@ -1792,9 +1685,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "108.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png"
     },
     {
         "ID": 108,
@@ -1807,9 +1699,8 @@ export const pokemon = [
             "Psychic",
             "Ground"
         ],
-        "image":[
-          "109.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png"
     },
     {
         "ID": 109,
@@ -1822,9 +1713,8 @@ export const pokemon = [
             "Psychic",
             ", Ground"
         ],
-        "image":[
-          "110.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png"
     },
     {
         "ID": 110,
@@ -1842,9 +1732,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "111.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png"
     },
     {
         "ID": 111,
@@ -1862,9 +1751,8 @@ export const pokemon = [
             ", Grass",
             ", Ground"
         ],
-        "image":[
-          "112.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png"
     },
     {
         "ID": 112,
@@ -1876,9 +1764,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image": [
-          "113.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png"
     },
     {
         "ID": 113,
@@ -1894,9 +1781,8 @@ export const pokemon = [
             ", Poison",
             ", Bug"
         ],
-        "image": [
-          "114.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png"
     },
     {
         "ID": 114,
@@ -1908,9 +1794,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "115.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png"
     },
     {
         "ID": 115,
@@ -1923,9 +1808,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "116.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png"
     },
     {
         "ID": 116,
@@ -1938,9 +1822,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "117.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png"
     },
     {
         "ID": 117,
@@ -1953,9 +1836,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "118.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png"
     },
     {
         "ID": 118,
@@ -1968,9 +1850,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "119.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png"
     },
     {
         "ID": 119,
@@ -1983,9 +1864,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "120.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png"
     },
     {
         "ID": 120,
@@ -2002,9 +1882,8 @@ export const pokemon = [
             ", Electric",
             ", Bug"
         ],
-        "image":[
-          "121.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png"
     },
     {
         "ID": 121,
@@ -2019,9 +1898,8 @@ export const pokemon = [
             ", Steel",
             ", Poison"
         ],
-        "image":[
-          "122.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png"
     },
     {
         "ID": 122,
@@ -2038,9 +1916,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "123.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png"
     },
     {
         "ID": 123,
@@ -2058,9 +1935,8 @@ export const pokemon = [
             ", Rock",
             ", Dark"
         ],
-        "image":[
-          "124.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png"
     },
     {
         "ID": 124,
@@ -2072,9 +1948,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "125.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png"
     },
     {
         "ID": 125,
@@ -2088,9 +1963,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "126.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png"
     },
     {
         "ID": 126,
@@ -2104,9 +1978,8 @@ export const pokemon = [
             ", Flying",
             ", Rock"
         ],
-        "image":[
-          "127.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png"
     },
     {
         "ID": 127,
@@ -2118,9 +1991,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "128.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png"
     },
     {
         "ID": 128,
@@ -2133,9 +2005,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "129.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png"
     },
     {
         "ID": 129,
@@ -2149,9 +2020,8 @@ export const pokemon = [
             "Electric",
             ", Rock"
         ],
-        "image":[
-          "130.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png"
     },
     {
         "ID": 130,
@@ -2167,9 +2037,8 @@ export const pokemon = [
             ", Fighting",
             ", Rock"
         ],
-        "image":[
-          "131.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png"
     },
     {
         "ID": 131,
@@ -2181,9 +2050,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "132.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png"
     },
     {
         "ID": 132,
@@ -2195,9 +2063,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "133.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
     },
     {
         "ID": 133,
@@ -2210,9 +2077,8 @@ export const pokemon = [
             "Grass",
             ", Electric"
         ],
-        "image":[
-          "134.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png"
     },
     {
         "ID": 134,
@@ -2224,9 +2090,8 @@ export const pokemon = [
         "weakness": [
             "Ground"
         ],
-        "image":[
-          "135.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png"
     },
     {
         "ID": 135,
@@ -2240,9 +2105,8 @@ export const pokemon = [
             ", Ground",
             ", Rock"
         ],
-        "image":[
-          "136.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png"
     },
     {
         "ID": 136,
@@ -2254,9 +2118,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "137.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png"
     },
     {
         "ID": 137,
@@ -2272,9 +2135,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "138.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png"
     },
     {
         "ID": 138,
@@ -2290,9 +2152,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "139.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png"
     },
     {
         "ID": 139,
@@ -2308,9 +2169,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "140.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png"
     },
     {
         "ID": 140,
@@ -2326,9 +2186,8 @@ export const pokemon = [
             ", Fighting",
             ", Ground"
         ],
-        "image":[
-          "141.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png"
     },
     {
         "ID": 141,
@@ -2345,9 +2204,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "142.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png"
     },
     {
         "ID": 142,
@@ -2359,9 +2217,8 @@ export const pokemon = [
         "weakness": [
             "Fighting"
         ],
-        "image":[
-          "143.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png"
     },
     {
         "ID": 143,
@@ -2377,9 +2234,8 @@ export const pokemon = [
             ", Fire",
             ", Rock"
         ],
-        "image":[
-          "144.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png"
     },
     {
         "ID": 144,
@@ -2393,9 +2249,8 @@ export const pokemon = [
             "Ice",
             ", Rock"
         ],
-        "image":[
-          "145.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png"
     },
     {
         "ID": 145,
@@ -2410,9 +2265,8 @@ export const pokemon = [
             ", Electric",
             ", Rock"
         ],
-        "image":[
-          "146.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png"
     },
     {
         "ID": 146,
@@ -2426,9 +2280,8 @@ export const pokemon = [
             ", Ice",
             ", Dragon"
         ],
-        "image":[
-          "147.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png"
     },
     {
         "ID": 147,
@@ -2442,9 +2295,8 @@ export const pokemon = [
             ", Ice",
             ", Dragon"
         ],
-        "image":[
-          "148.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png"
     },
     {
         "ID": 148,
@@ -2460,9 +2312,8 @@ export const pokemon = [
             ", Ice",
             ", Rock"
         ],
-        "image":[
-          "149.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png"
     },
     {
         "ID": 149,
@@ -2476,9 +2327,8 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "150.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
     },
     {
         "ID": 150,
@@ -2492,8 +2342,7 @@ export const pokemon = [
             ", Dark",
             ", Bug"
         ],
-        "image":[
-          "151.png"
-       ]
+        "image":
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png"
     }
 ]

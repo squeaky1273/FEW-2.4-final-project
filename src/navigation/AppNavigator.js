@@ -13,13 +13,17 @@ function RootNavigator() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name='Home' component={HomeScreen} />
         <Tab.Screen
-            name='Pokemon'
-            component={PokemonScreen}
-            options={{ headerRight: props => <TeamIcon {...props} /> }}
+          name='Home' 
+          component={HomeScreen} 
         />
-        <Tab.Screen name='Team' component={TeamScreen} />
+        <Tab.Screen
+          name='Pokemon'
+          component={PokemonScreen}
+        />
+        <Tab.Screen
+          name='Team'
+          component={TeamScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   )

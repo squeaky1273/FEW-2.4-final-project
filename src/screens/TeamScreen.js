@@ -7,7 +7,7 @@ import {
   Image,
   StyleSheet
 } from 'react-native'
-import { Entypo } from '@expo/vector-icons';
+// import { Entypo } from '@expo/vector-icons';
 import { useSelector, useDispatch } from 'react-redux'
 import { REMOVE_FROM_TEAM } from '../redux/pokemonTeamReducer'
 
@@ -36,17 +36,18 @@ function TeamScreen() {
             ItemSeparatorComponent={() => Separator()}
             renderItem={({ item }) => (
                 <View style={styles.pokemonListContainer}>
-                <Image source={{ uri: item.imgUrl }} style={styles.thumbnail} />
+                <Image source={{ uri: item.image }} style={styles.thumbnail} />
                 <View style={styles.pokemonMetaContainer}>
                     <Text style={styles.pokemonName} numberOfLines={1}>
                     {item.name}
                     </Text>
-                    <Text style={styles.pokemonType}>{item.type}</Text>
+                    <Text style={styles.pokemonType}>Type: {item.type}</Text>
+                    <Text style={styles.pokemonWeakness}>Weakness: {item.weakness}</Text>
                     <View style={styles.buttonContainer}>
                     <TouchableOpacity
                         onPress={() => removePokemonFromTeam(item.ID)}
                         style={styles.button}>
-                        <Text style={styles.buttonText}>Remove -</Text>
+                        <Text style={styles.buttonText}>Remove</Text>
                     </TouchableOpacity>
                     </View>
                 </View>
@@ -56,7 +57,7 @@ function TeamScreen() {
         ) : (
             <View style={styles.emptyTeamContainer}>
                 <Text style={styles.emptyTeamMessage}>You have no pokemon on your team.</Text>
-                <Entypo name="progress-empty" size={48} color="black" />
+                {/* <Entypo name="progress-empty" size={48} color="black" /> */}
             </View>
         )}
         </View>
@@ -78,7 +79,7 @@ const styles = StyleSheet.create({
         padding: 10
     },
     thumbnail: {
-        width: 100,
+        width: 150,
         height: 150
     },
     pokemonMetaContainer: {
@@ -90,8 +91,13 @@ const styles = StyleSheet.create({
         fontWeight: '400'
     },
     pokemonType: {
-        fontSize: 18,
+        fontSize: 15,
         fontWeight: '200'
+    },
+    pokemonWeakness: {
+        fontSize: 15,
+        fontWeight: '200',
+        flexWrap: 'wrap'
     },
     buttonContainer: {
         position: 'absolute',
@@ -99,7 +105,7 @@ const styles = StyleSheet.create({
         left: 10
     },
     button: {
-        borderRadius: 8,
+        borderRadius: 5,
         backgroundColor: 'tomato',
         padding: 5
     },
