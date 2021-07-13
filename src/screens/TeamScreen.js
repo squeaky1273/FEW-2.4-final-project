@@ -50,7 +50,7 @@ function TeamScreen() {
                         </Text>
                         <Text style={styles.pokemonType}>Type: {item.type}</Text>
                         <Text>Weakness:</Text>
-                        <Text style={styles.pokemonWeakness}>{item.weakness}</Text>
+                        <Text style={styles.pokemonWeakness}>Weakness: {item.weakness}</Text>
                         <View style={styles.buttonContainer}>
                         <TouchableOpacity
                             onPress={() => removePokemonFromTeam(item.ID)}
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
         fontWeight: '200'
     },
     pokemonWeakness: {
-        fontSize: 13,
+        fontSize: 12,
         fontWeight: '200',
         flexWrap: 'wrap'
     },

@@ -1,3 +1,5 @@
+// source image official pokemon site
+
 export const pokemon = [
     {
         "ID": 0,

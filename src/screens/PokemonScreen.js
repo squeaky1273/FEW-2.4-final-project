@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     fontWeight: '200'
   },
   pokemonWeakness: {
-      fontSize: 13,
+      fontSize: 12,
       fontWeight: '200',
       flex: 1,
       flexGrow: 1,
