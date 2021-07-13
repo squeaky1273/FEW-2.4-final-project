@@ -5,11 +5,14 @@ import {
   TouchableOpacity,
   FlatList,
   Image,
-  StyleSheet
+  StyleSheet,
+  ImageBackground
 } from 'react-native'
 // import { Entypo } from '@expo/vector-icons';
 import { useSelector, useDispatch } from 'react-redux'
 import { REMOVE_FROM_TEAM } from '../redux/pokemonTeamReducer'
+
+const image = { uri: "https://img.freepik.com/free-vector/layers-diagonal-lines-white-texture-background_23-2148428986.jpg?size=626&ext=jpg" };
 
 function Separator() {
     return <View style={{ borderBottomWidth: 1, borderBottomColor: '#a9a9a9' }} />
@@ -28,38 +31,44 @@ function TeamScreen() {
     return (
         <View
         style={styles.container}>
-        <Text style={styles.heading}>Your Team</Text>
-        {capturedPokemon.length !== 0 ? (
-            <FlatList
-            data={capturedPokemon}
-            keyExtractor={(item) => item.name.toString()}
-            ItemSeparatorComponent={() => Separator()}
-            renderItem={({ item }) => (
-                <View style={styles.pokemonListContainer}>
-                <Image source={{ uri: item.image }} style={styles.thumbnail} />
-                <View style={styles.pokemonMetaContainer}>
-                    <Text style={styles.pokemonName} numberOfLines={1}>
-                    {item.name}
-                    </Text>
-                    <Text style={styles.pokemonType}>Type: {item.type}</Text>
-                    <Text style={styles.pokemonWeakness}>Weakness: {item.weakness}</Text>
-                    <View style={styles.buttonContainer}>
-                    <TouchableOpacity
-                        onPress={() => removePokemonFromTeam(item.ID)}
-                        style={styles.button}>
-                        <Text style={styles.buttonText}>Remove</Text>
-                    </TouchableOpacity>
+            <ImageBackground
+            source={image}
+            resizeMode="cover"
+            style={styles.image}>
+            <Text style={styles.heading}>Your Team</Text>
+            {capturedPokemon.length !== 0 ? (
+                <FlatList
+                data={capturedPokemon}
+                keyExtractor={(item) => item.name.toString()}
+                ItemSeparatorComponent={() => Separator()}
+                renderItem={({ item }) => (
+                    <View style={styles.pokemonListContainer}>
+                    <Image source={{ uri: item.image }} style={styles.thumbnail} />
+                    <View style={styles.pokemonMetaContainer}>
+                        <Text style={styles.pokemonName} numberOfLines={1}>
+                        {item.name}
+                        </Text>
+                        <Text style={styles.pokemonType}>Type: {item.type}</Text>
+                        <Text>Weakness:</Text>
+                        <Text style={styles.pokemonWeakness}>{item.weakness}</Text>
+                        <View style={styles.buttonContainer}>
+                        <TouchableOpacity
+                            onPress={() => removePokemonFromTeam(item.ID)}
+                            style={styles.button}>
+                            <Text style={styles.buttonText}> Remove </Text>
+                        </TouchableOpacity>
+                        </View>
                     </View>
-                </View>
+                    </View>
+                )}
+                />
+            ) : (
+                <View style={styles.emptyTeamContainer}>
+                    <Text style={styles.emptyTeamMessage}>You have no pokemon on your team.</Text>
+                    {/* <Entypo name="progress-empty" size={48} color="black" /> */}
                 </View>
             )}
-            />
-        ) : (
-            <View style={styles.emptyTeamContainer}>
-                <Text style={styles.emptyTeamMessage}>You have no pokemon on your team.</Text>
-                {/* <Entypo name="progress-empty" size={48} color="black" /> */}
-            </View>
-        )}
+            </ImageBackground>
         </View>
     )
 }
@@ -91,11 +100,11 @@ const styles = StyleSheet.create({
         fontWeight: '400'
     },
     pokemonType: {
-        fontSize: 15,
+        fontSize: 13,
         fontWeight: '200'
     },
     pokemonWeakness: {
-        fontSize: 15,
+        fontSize: 13,
         fontWeight: '200',
         flexWrap: 'wrap'
     },
@@ -106,7 +115,7 @@ const styles = StyleSheet.create({
     },
     button: {
         borderRadius: 5,
-        backgroundColor: 'tomato',
+        backgroundColor: '#B22222',
         padding: 5
     },
     buttonText: {
@@ -120,6 +129,10 @@ const styles = StyleSheet.create({
     },
     emptyTeamMessage: {
         fontSize: 18
+    },
+    image: {
+        flex: 1,
+        justifyContent: "center"
     }
 })
 

@@ -5,11 +5,14 @@ import {
   FlatList,
   Image,
   TouchableOpacity,
-  StyleSheet
+  StyleSheet,
+  ImageBackground
 } from 'react-native'
 import { useDispatch } from 'react-redux'
 import { pokemon } from '../utils/data'
 import { ADD_TO_TEAM } from '../redux/pokemonTeamReducer'
+
+const image = { uri: "https://img.freepik.com/free-vector/layers-diagonal-lines-white-texture-background_23-2148428986.jpg?size=626&ext=jpg" };
 
 function Separator() {
   return <View style={{ borderBottomWidth: 1, borderBottomColor: '#a9a9a9' }} />
@@ -20,32 +23,39 @@ function PokemonScreen() {
   const addPokemonToTeam = item => dispatch({ type: ADD_TO_TEAM, payload: item })
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Wild Pokemon</Text>
-      <FlatList
-        data={pokemon}
-        keyExtractor={(item) => item.name}
-        ItemSeparatorComponent={() => Separator()}
-        renderItem={({ item }) => (
-          <View style={styles.pokemonListContainer}>
-            <Image source={{ uri: item.image }} style={styles.thumbnail} />
-            <View>
-              <Text style={styles.pokemonName} numberOfLines={1}>
-                {item.name}
-              </Text>
-              <Text style={styles.pokemonType}>Type: {item.type}</Text>
-              <Text style={styles.pokemonWeakness}>Weakness: {item.weakness}</Text>
-              <View style={styles.buttonContainer}>
-                <TouchableOpacity
-                    onPress={() => addPokemonToTeam(item)} style={styles.button}
-                    style={styles.button}
-                >
-                  <Text style={styles.buttonText}>Add + </Text>
-                </TouchableOpacity>
+      <ImageBackground
+        source={image}
+        resizeMode="cover"
+        style={styles.image}
+      >        
+        <Text style={styles.heading}>Wild Pokemon</Text>
+        <FlatList
+          data={pokemon}
+          keyExtractor={(item) => item.name}
+          ItemSeparatorComponent={() => Separator()}
+          renderItem={({ item }) => (
+            <View style={styles.pokemonListContainer}>
+              <Image source={{ uri: item.image }} style={styles.thumbnail} />
+              <View>
+                <Text style={styles.pokemonName} numberOfLines={1}>
+                  {item.name}
+                </Text>
+                <Text style={styles.pokemonType}>Type: {item.type}</Text>
+                <Text>Weakness:</Text>
+                <Text style={styles.pokemonWeakness}>{item.weakness}</Text>
+                <View style={styles.buttonContainer}>
+                  <TouchableOpacity
+                      onPress={() => addPokemonToTeam(item)} style={styles.button}
+                      style={styles.button}
+                  >
+                    <Text style={styles.buttonText}> Add + </Text>
+                  </TouchableOpacity>
+                </View>
               </View>
             </View>
-          </View>
-        )}
-      />
+          )}
+        />
+       </ImageBackground>
     </View>
   )
 }
@@ -97,5 +107,9 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 22,
     color: '#fff'
-  }
+  },
+  image: {
+    flex: 1,
+    justifyContent: "center"
+},
 })
